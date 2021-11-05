@@ -3,7 +3,7 @@
 main(){
     int notas[10], nota, menor, maior;
     for(int i = 0; i<10; i++){
-        printf("%d บ nota: ", &nota);
+        printf("%d ยบ nota: ", &nota);
         scanf("%d", &nota);
 
         notas[i] = nota;
