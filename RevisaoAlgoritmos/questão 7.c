@@ -20,9 +20,9 @@ int main()
     printf("\nFloat antes %f",  &flutuante);
     printf("\nChar antes %c", &caractere);
 
-    printf("\nInt após %i ", *pi);
-    printf("\nFloat após %f",  *pf);
-    printf("\nChar após %c", *pc);
+    printf("\nInt apÃ³s %i ", *pi);
+    printf("\nFloat apÃ³s %f",  *pf);
+    printf("\nChar apÃ³s %c", *pc);
 
 
 
