@@ -40,7 +40,7 @@ typedef struct
     } Aluno;
 
 void insere_pessoa(Aluno agenda){
-    printf("Tela de inserção de aluno\n");
+    printf("Tela de inserÃ§Ã£o de aluno\n");
     char nome[32], email[32], curso[8], observacao[128], rua[32], complememto[64], bairro[32], cep[12], cidade[32], estado[32], pais[32];
     int dia, mes, ano, ddd, numero_telefone, numero_casa;
 
@@ -76,7 +76,7 @@ void insere_pessoa(Aluno agenda){
     printf("Numero de telefone: ");
     scanf("%i", &numero_telefone);
 
-    printf("\n Informe seu endereço: \n");
+    printf("\n Informe seu endereÃ§o: \n");
     printf("Rua: ");
     scanf("%s", &rua);
 
@@ -89,7 +89,7 @@ void insere_pessoa(Aluno agenda){
     printf("Complemento: ");
     scanf("%s", &complememto);
 
-    printf("Nº casa: ");
+    printf("NÂº casa: ");
     scanf("%i", &numero_casa);
 
     printf("Cidade: ");
